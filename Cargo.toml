@@ -1,0 +1,24 @@
+[package]
+name = "zahyou"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89.0"
+description = "Zahyou (座標) — text coordinates: byte offsets <-> LSP line/UTF-16 positions, converted once and correctly"
+homepage = "https://github.com/pleme-io/zahyou"
+repository = "https://github.com/pleme-io/zahyou"
+readme = "README.md"
+license = "MIT"
+categories = ["text-processing", "development-tools"]
+keywords = ["lsp", "utf16", "position", "offset", "text"]
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+
+[dependencies]
+serde = { version = "1", features = ["derive"], optional = true }
+
+[features]
+default = []
+serde = ["dep:serde"]

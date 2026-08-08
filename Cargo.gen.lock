@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "cargo_lock_sha256": "b1ba7efb3d6234f1695370a4d82e671b8518e96df1ef48f72e130295ce7b064f",
+  "manifest_sha256": {
+    "Cargo.toml": "03851dea104b8c9ab5d2b621e8344eedb04f5c968e591ea121233a4f3cc4162f"
+  },
+  "target_resolves": {
+    "base": {
+      "zahyou-0.1.0": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": [
+          "default"
+        ]
+      }
+    },
+    "targets": {
+      "aarch64-apple-darwin": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-musl": {
+        "overrides": {}
+      },
+      "x86_64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-musl": {
+        "overrides": {}
+      }
+    }
+  },
+  "per_crate": {
+    "zahyou-0.1.0": {
+      "edition": "2024",
+      "lib_target": {
+        "name": "zahyou",
+        "path": "src/lib.rs"
+      }
+    }
+  },
+  "git_nar_sha256": {},
+  "flake_metadata": {}
+}
