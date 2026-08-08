@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "b1ba7efb3d6234f1695370a4d82e671b8518e96df1ef48f72e130295ce7b064f",
+  "cargo_lock_sha256": "c20e66fe2c814f53bdf4f7c4b4c082b2aa31c467280ee210e6a56b78bf46d58b",
   "manifest_sha256": {
-    "Cargo.toml": "03851dea104b8c9ab5d2b621e8344eedb04f5c968e591ea121233a4f3cc4162f"
+    "Cargo.toml": "273b7c266ffaeffa583e78d43f79f170f25eb1e659474380b448e69fe16abb7f"
   },
   "target_resolves": {
     "base": {
-      "zahyou-0.1.0": {
+      "zahyou-0.1.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -36,7 +36,7 @@
     }
   },
   "per_crate": {
-    "zahyou-0.1.0": {
+    "zahyou-0.1.1": {
       "edition": "2024",
       "lib_target": {
         "name": "zahyou",
