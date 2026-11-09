@@ -1,9 +1,7 @@
 # Zahyou (座標) — text coordinates
 
 > **★★★ CSE / Knowable Construction.** This repo operates under **Constructive
-> Substrate Engineering** — canonical spec at
-> [`pleme-io/theory/CONSTRUCTIVE-SUBSTRATE-ENGINEERING.md`](https://github.com/pleme-io/theory/blob/main/CONSTRUCTIVE-SUBSTRATE-ENGINEERING.md).
-> The Compounding Directive is in the org-level `pleme-io/CLAUDE.md`.
+> Substrate Engineering**. The Compounding Directive is in the org-level `pleme-io/CLAUDE.md`.
 
 ## Build & test
 
